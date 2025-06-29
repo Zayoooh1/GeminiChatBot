@@ -1,0 +1,79 @@
+# Environment variables
+.env
+*.env.*
+!*.env.example
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Other
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+
+# Flask
+instance/*
+!instance/.gitkeep
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+.cache/pytest/
+
+# tox
+.tox/
+
+# Python Linter
+.pylintrc
